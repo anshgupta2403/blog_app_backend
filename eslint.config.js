@@ -1,14 +1,14 @@
 // backend/eslint.config.js
 export default [
   {
-    files: ['**/*.js'],
+    files: ["**/*.js"],
     languageOptions: {
       ecmaVersion: 2022,
-      sourceType: 'module',
+      sourceType: "module",
     },
     rules: {
-      semi: ['error', 'always'],
-      quotes: ['error', 'single'],
+      semi: ["error", "always"],
+      quotes: ["error", "double"],
     },
   },
 ];
